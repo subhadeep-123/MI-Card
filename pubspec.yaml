@@ -1,0 +1,33 @@
+name: MiCard
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/Image/avatar.jpg
+
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: assets/Pacifico Font/Pacifico-Regular.ttf
+    - family: Source Sans Pro
+      fonts:
+        - asset: assets/Source_Sans_Pro/SourceSansPro-Regular.ttf
